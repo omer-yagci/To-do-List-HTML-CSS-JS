@@ -16,6 +16,8 @@ h1 {
   font-size: 4.5rem;
   text-align: center;
 }
+
+/* Header SEction Start */
 #header {
   min-height: 20vh;
   display: flex;
@@ -26,6 +28,7 @@ h1 {
   max-width: 100%;
   width: 30rem;
 }
+
 #header input,
 #header button {
   padding: 0.5rem;
@@ -48,6 +51,9 @@ h1 {
   background-color: #ff8cc6;
   color: wheat;
 }
+/* Header Section End */
+
+/* todo  Container Start */
 .todo-container {
   display: flex;
   justify-content: center;
@@ -83,3 +89,4 @@ h1 {
   padding: 1rem;
   font-size: 1rem;
 }
+/* todo  Container End */
