@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Abel", sans-serif;
+  /* color: #e3e1e3; */
+}
+body {
+  background-image: linear-gradient(120deg, #9d5a63, #c96567);
+  color: #314456;
+  min-height: 100vh;
+}
+h1 {
+  font-size: 4.5rem;
+  text-align: center;
+}
+#header {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#header input {
+  max-width: 100%;
+  width: 30rem;
+}
+#header input,
+#header button {
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background-color: lightpink;
+  color: lightgoldenrodyellow;
+  font-weight: bold;
+}
+#header input:focus {
+  outline: none;
+}
+#header button {
+  color: #ff8cc6;
+  background-color: aliceblue;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+#header button:hover {
+  background-color: #ff8cc6;
+  color: wheat;
+}
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo-list {
+  min-width: 30%;
+  list-style: none;
+}
+.todo {
+  margin: 0.5rem;
+  background: white;
+  color: black;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 1s ease;
+}
+.todo li {
+  flex: 1;
+}
+.fa-trash,
+.fa-check {
+  pointer-events: none;
+}
+.btn-delete,
+.btn-check {
+  background-color: pink;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 1rem;
+  font-size: 1rem;
+}
