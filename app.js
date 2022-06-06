@@ -48,3 +48,9 @@ addToDoButton.addEventListener("click", (e) => {
     });
   });
 });
+// Enter keypress Event
+valueFromInput.addEventListener("keydown", (e) => {
+  if (e.keyCode === 13) {
+    addToDoButton.click();
+  }
+});
