@@ -75,6 +75,7 @@ h1 {
 }
 .todo li {
   flex: 1;
+  padding: 0 1rem;
 }
 .fa-trash,
 .fa-check {
@@ -88,5 +89,9 @@ h1 {
   cursor: pointer;
   padding: 1rem;
   font-size: 1rem;
+}
+.checked {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.5);
 }
 /* todo  Container End */
