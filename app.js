@@ -48,10 +48,3 @@ addToDoButton.addEventListener("click", (e) => {
     });
   });
 });
-
-valueFromInput.addEventListener("keydown", (e) => {
-  // e.preventDefault();
-  if (e.keyCode === 13) {
-    addToDoButton.click();
-  }
-});
