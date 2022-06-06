@@ -42,8 +42,8 @@ addToDoButton.addEventListener("click", (e) => {
   // Check Button
 
   const checkButton = document.querySelectorAll(".btn-check");
-  checkButton.forEach((button) => {
-    button.addEventListener("click", (e) => {
+  checkButton.forEach((buttonEl) => {
+    buttonEl.addEventListener("click", (e) => {
       e.target.parentElement.classList.toggle("checked");
     });
   });
