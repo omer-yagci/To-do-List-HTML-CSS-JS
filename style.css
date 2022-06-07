@@ -96,7 +96,17 @@ h1 {
 }
 
 .fall {
-  transform: translateY(8rem) rotateZ(20deg);
+  /* transform: translateY(8rem) rotateZ(20deg);
+  opacity: 0;  */
+  animation: mymove 2s;
   opacity: 0;
 }
 /* todo  Container End */
+@keyframes mymove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 300px;
+  }
+}
